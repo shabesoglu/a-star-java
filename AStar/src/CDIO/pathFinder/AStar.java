@@ -107,7 +107,7 @@ public class AStar {
 		return path;
 	}
 
-	private class SortedNodeList extends ArrayList<Node>{
+	private class SortedNodeList {
 
 		private ArrayList<Node> list = new ArrayList<Node>();
 
